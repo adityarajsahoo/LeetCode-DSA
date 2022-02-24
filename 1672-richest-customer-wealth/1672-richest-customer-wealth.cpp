@@ -21,3 +21,9 @@ public:
 
 // n is traversing over the bank values of customer
 // m is traversing over the no of customers
+
+// ANALYSIS :-
+
+// Time Complexity :- O(M * N), where M is customer & N is bank
+
+// Space Complexity :- O(1) as we are not using any extra-space
