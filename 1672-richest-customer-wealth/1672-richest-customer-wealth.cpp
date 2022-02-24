@@ -17,3 +17,7 @@ public:
         return max_s;
     }
 };
+
+
+// n is traversing over the bank values of customer
+// m is traversing over the no of customers
