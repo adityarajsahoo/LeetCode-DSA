@@ -7,13 +7,13 @@ public:
         {
             if(s[i]>=48 && s[i]<=57)
             {
-                v[s[i]-48] = word + " ";
-                word = "";
+                v[s[i]-48] = word + " "; \\ ascii number - 48 , eg v[0] = word 1...
+                word = ""; \\ no fill of number
                 i++;
             }
             else
             {
-                word = word + s[i];
+                word = word + s[i]; \\ other letters of number
             }
         }
         string ans;
@@ -21,7 +21,7 @@ public:
         {
             ans = ans + x;
         }
-        ans.pop_back();
+        ans.pop_back(); \\ one extra space added at the end is removed
         return ans;
     }
 };
