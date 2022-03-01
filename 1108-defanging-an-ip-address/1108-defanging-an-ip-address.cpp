@@ -2,12 +2,17 @@ class Solution {
 public:
     string defangIPaddr(string address) {
         
-        string res;
-        for(auto c: address) {
-            if(c=='.') {
-                res+="[.]";
-            } else res+=c;
+        string ans;
+        for(auto x: address) {
+            if(x =='.') 
+            {
+                ans += "[.]";
+            } 
+            else 
+            {
+                ans += x;
+            }
         }
-        return res;
+        return ans;
     }
 };
