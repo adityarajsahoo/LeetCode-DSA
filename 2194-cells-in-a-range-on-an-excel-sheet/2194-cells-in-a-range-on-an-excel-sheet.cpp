@@ -9,7 +9,7 @@ public:
         {
             for(int i=m;i<=n;i++)
             {
-                string t=c+to_string(i); // merges char and int
+                string t=c+to_string(i); // merges char and int (into string)
                 res.push_back(t);
             }
         }
