@@ -6,6 +6,6 @@ public:
         {
             ans[x - 'a'] = 1;
         }
-        return accumulate(ans.begin(),ans.end(),0) == 26;
+        return accumulate(ans.begin(),ans.end(),0) == 26; // new fn: accumulate
     }
 };
