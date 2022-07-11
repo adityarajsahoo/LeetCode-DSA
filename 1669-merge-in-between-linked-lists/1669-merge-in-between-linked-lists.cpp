@@ -8,7 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution { // Nice Question
 public:
     ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
         int count = 1;
