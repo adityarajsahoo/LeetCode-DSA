@@ -26,7 +26,7 @@ public:
             curr = curr->next;
         }
         d1->next = list2; // points to the head of list 2
-        curr = list2;
+        curr = list2; // curr also points to list 2
         while(curr->next!=NULL){
             curr = curr->next;
         }
