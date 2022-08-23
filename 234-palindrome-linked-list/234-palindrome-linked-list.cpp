@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// https://leetcode.com/problems/palindrome-linked-list/discuss/1913576/88.51-faster-C%2B%2B-Solution
 class Solution {
 private:
     ListNode* getMiddle(ListNode* head){
