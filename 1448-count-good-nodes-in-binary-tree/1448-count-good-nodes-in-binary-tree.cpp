@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/count-good-nodes-in-binary-tree/discuss/2511440/C%2B%2B-or-Pre-Order-Traversal-or-Intuitive-Approach
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
